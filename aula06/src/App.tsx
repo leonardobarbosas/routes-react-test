@@ -1,10 +1,11 @@
+import { Outlet } from 'react-router-dom';
+
 function App() {
-  return (
-    <div className="container">
-      <h1>Container App</h1>
-      <p>teste</p>
-    </div>
-  );
+  return <div className="container">
+
+    <Outlet />
+
+  </div>;
 }
 
 export default App;
