@@ -23,7 +23,7 @@ const routes = createBrowserRouter([
         element: <Produtos />,
       },
       {
-        path: "/editarProdutos",
+        path: "/editar/produtos",
         element: <EditarProdutos />,
       },
     ],
@@ -32,6 +32,6 @@ const routes = createBrowserRouter([
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <RouterProvider router={routes}/>
+    <RouterProvider router={routes} />
   </StrictMode>
 );
